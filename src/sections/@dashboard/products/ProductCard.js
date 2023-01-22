@@ -15,6 +15,14 @@ const StyledProductImg = styled('img')({
   objectFit: 'cover',
   position: 'absolute',
 });
+const StyledTypoTitle = styled(Typography)({
+  fontWeight: 'bold',
+  fontSize: '18px',
+  cursor: 'pointer'
+});
+const StyledTypo = styled(Typography)({
+  fontWeight: 'bold',
+});
 
 // ----------------------------------------------------------------------
 
@@ -48,16 +56,16 @@ export default function ShopProductCard({ product }) {
 
       <Stack spacing={2} sx={{ p: 3 }}>
         <Link color="inherit" underline="hover">
-          <Typography variant="subtitle2" noWrap>
+          <StyledTypoTitle variant="subtitle2" noWrap>
             {name}
-          </Typography>
+          </StyledTypoTitle>
         </Link>
 
         <Stack direction="row" alignItems="center" justifyContent="space-between">
           <ColorPreview colors={colors} />
-          <Typography variant="subtitle1">
+          <StyledTypo variant="subtitle1">
             {price} Wins
-          </Typography>
+          </StyledTypo>
         </Stack>
       </Stack>
     </Card>
