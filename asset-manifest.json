@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/digica-hub-id/static/js/main.865eda3c.js",
+    "main.js": "/digica-hub-id/static/js/main.f528e40c.js",
     "static/js/496.e110c9ac.chunk.js": "/digica-hub-id/static/js/496.e110c9ac.chunk.js",
     "index.html": "/digica-hub-id/index.html",
-    "main.865eda3c.js.map": "/digica-hub-id/static/js/main.865eda3c.js.map",
+    "main.f528e40c.js.map": "/digica-hub-id/static/js/main.f528e40c.js.map",
     "496.e110c9ac.chunk.js.map": "/digica-hub-id/static/js/496.e110c9ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.865eda3c.js"
+    "static/js/main.f528e40c.js"
   ]
 }
