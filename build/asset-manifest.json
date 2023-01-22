@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/digica-hub-id/static/js/main.e325a849.js",
+    "static/js/496.e110c9ac.chunk.js": "/digica-hub-id/static/js/496.e110c9ac.chunk.js",
+    "index.html": "/digica-hub-id/index.html",
+    "main.e325a849.js.map": "/digica-hub-id/static/js/main.e325a849.js.map",
+    "496.e110c9ac.chunk.js.map": "/digica-hub-id/static/js/496.e110c9ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e325a849.js"
+  ]
+}
