@@ -96,7 +96,7 @@ export default function BlogPostCard({ post, index }) {
         >
           <SvgColor
             color="paper"
-            src="assets/icons/shape-avatar.svg"
+            src={`${process.env.PUBLIC_URL}/assets/icons/shape-avatar.svg`}
             sx={{
               width: 80,
               height: 36,

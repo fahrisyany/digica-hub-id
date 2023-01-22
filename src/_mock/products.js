@@ -7,7 +7,7 @@ const PRODUCT_NAME = [
   {
     name: 'Wargreymon/Blackwargreymon',
     colors: ['red', 'black'],
-    image: 'https://digimon-cg-guide.com/wp-content/uploads/cropped-BT12-070.jpg',
+    image: `${process.env.PUBLIC_URL}/assets/images/digimon/wg.jpg`,
     wins: 6,
   },
   {

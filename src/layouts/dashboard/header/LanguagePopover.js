@@ -9,12 +9,12 @@ const LANGS = [
   {
     value: 'en',
     label: 'English',
-    icon: 'assets/icons/ic_flag_en.svg',
+    icon: `${process.env.PUBLIC_URL}/assets/icons/ic_flag_en.svg`,
   },
   {
     value: 'id',
     label: 'Bahasa Indonesia',
-    icon: 'assets/icons/ic_flag_de.svg',
+    icon: `${process.env.PUBLIC_URL}/assets/icons/ic_flag_de.svg`,
   },
 ];
 
